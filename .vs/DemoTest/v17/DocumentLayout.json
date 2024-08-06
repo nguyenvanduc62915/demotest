@@ -1,0 +1,248 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vandu\\source\\repos\\DemoTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\migrations\\20240805080456_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\migrations\\20240805080456_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\dto\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\dto\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\demotest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\demotest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\demotest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\demotest.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|c:\\users\\vandu\\source\\repos\\demotest\\demotest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA9FDB69-C7BD-45E4-AD14-E8ADEA4958FA}|DemoTest\\DemoTest.csproj|solutionrelative:demotest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DemoTest\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "DemoTest\\DTO\\LoginDTO.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T10:13:16.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DemoTest\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "DemoTest\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwA0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T09:09:28.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240805080456_init.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Migrations\\20240805080456_init.cs",
+              "RelativeDocumentMoniker": "DemoTest\\Migrations\\20240805080456_init.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Migrations\\20240805080456_init.cs",
+              "RelativeToolTip": "DemoTest\\Migrations\\20240805080456_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T09:02:58.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DTO\\AuthResponseDTO.cs",
+              "RelativeDocumentMoniker": "DemoTest\\DTO\\AuthResponseDTO.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DTO\\AuthResponseDTO.cs",
+              "RelativeToolTip": "DemoTest\\DTO\\AuthResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T08:49:28.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "DemoTest\\DTO\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "DemoTest\\DTO\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T08:35:08.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DemoTest\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DemoTest\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAwGQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T08:25:39.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "DemoTest\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "DemoTest\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:57:21.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DemoTest",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DemoTest.csproj",
+              "RelativeDocumentMoniker": "DemoTest\\DemoTest.csproj",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DemoTest.csproj",
+              "RelativeToolTip": "DemoTest\\DemoTest.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-05T07:38:36.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DemoTest\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DemoTest\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:20:01.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "DemoTest\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\WeatherForecast.cs",
+              "RelativeToolTip": "DemoTest\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:19:47.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\appsettings.json",
+              "RelativeDocumentMoniker": "DemoTest\\appsettings.json",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\appsettings.json",
+              "RelativeToolTip": "DemoTest\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-05T07:19:46.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DemoTest.http",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DemoTest.http",
+              "RelativeDocumentMoniker": "DemoTest\\DemoTest.http",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DemoTest.http",
+              "RelativeToolTip": "DemoTest\\DemoTest.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-05T07:19:12.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "DemoTest\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Models\\AppUser.cs",
+              "RelativeToolTip": "DemoTest\\Models\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:18:27.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Program.cs",
+              "RelativeDocumentMoniker": "DemoTest\\Program.cs",
+              "ToolTip": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\Program.cs",
+              "RelativeToolTip": "DemoTest\\Program.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAABsAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T07:12:32.466Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
