@@ -6,7 +6,6 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
 namespace DemoTest.Controllers
@@ -17,19 +16,19 @@ namespace DemoTest.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        private readonly IConfiguration _config;
+        private readonly JwtSettings _jwtSettings;
 
         public AccountController(UserManager<AppUser> userManager,
             RoleManager<IdentityRole> roleManager,
-            IConfiguration config)
+            JwtSettings jwtSettings)
         {
             _userManager = userManager;
             _roleManager = roleManager;
-            _config = config;
+            _jwtSettings = jwtSettings;
         }
 
         [HttpPost("register")]
-        public async Task<ActionResult<string>> Register(RegisterDTO registerDTO)
+        public async Task<ActionResult<AuthResponseDTO>> Register(RegisterDTO registerDTO)
         {
             if (!ModelState.IsValid)
             {
@@ -69,7 +68,7 @@ namespace DemoTest.Controllers
             return Ok(new AuthResponseDTO
             {
                 IsSuccess = true,
-                Message = "Account Create Sucessfully!"
+                Message = "Account created successfully!"
             });
         }
 
@@ -103,7 +102,7 @@ namespace DemoTest.Controllers
                 });
             }
 
-            var token = GenerateToKen(user);
+            var token = await GenerateToken(user);
 
             return Ok(new AuthResponseDTO
             {
@@ -113,25 +112,24 @@ namespace DemoTest.Controllers
             });
         }
 
-        private string GenerateToKen(AppUser user)
+        private async Task<string> GenerateToken(AppUser user)
         {
+            if (user == null) throw new ArgumentNullException(nameof(user));
+            if (string.IsNullOrEmpty(_jwtSettings.SecurityKey)) throw new ArgumentNullException(nameof(_jwtSettings.SecurityKey));
+
             var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_jwtSettings.SecurityKey);
 
-            var key = Encoding.ASCII
-                .GetBytes(_config.GetSection("JWTSetting").GetSection("securityKey").Value!);
+            var claims = new List<Claim>
+            {
+                new Claim(JwtRegisteredClaimNames.Email, user.Email ?? ""),
+                new Claim(JwtRegisteredClaimNames.Name, user.FullName ?? ""),
+                new Claim(JwtRegisteredClaimNames.NameId, user.Id ?? ""),
+                new Claim(JwtRegisteredClaimNames.Aud, _jwtSettings.ValidAudience),
+                new Claim(JwtRegisteredClaimNames.Iss, _jwtSettings.ValidIssuer)
+            };
 
-            var roles = _userManager.GetRolesAsync(user).Result;
-
-            List<Claim> claims =
-            [
-                new(JwtRegisteredClaimNames.Email, user.Email ?? ""),
-                new(JwtRegisteredClaimNames.Name, user.FullName ?? ""),
-                new(JwtRegisteredClaimNames.NameId, user.Id ?? ""),
-                new(JwtRegisteredClaimNames.Aud,
-                    _config.GetSection("JWTSetting").GetSection("validAudience").Value!),
-                new(JwtRegisteredClaimNames.Iss,
-                    _config.GetSection("JWTSetting").GetSection("validIssuer").Value!)
-            ];
+            var roles = await _userManager.GetRolesAsync(user);
 
             foreach (var role in roles)
             {
@@ -141,15 +139,11 @@ namespace DemoTest.Controllers
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.UtcNow.AddDays(1),
-                SigningCredentials = new SigningCredentials(
-                    new SymmetricSecurityKey(key),
-                    SecurityAlgorithms.HmacSha256
-                )
+                Expires = DateTime.UtcNow.AddMinutes(_jwtSettings.ExpireInMinutes),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256)
             };
 
             var token = tokenHandler.CreateToken(tokenDescriptor);
-
             return tokenHandler.WriteToken(token);
         }
 
@@ -169,30 +163,18 @@ namespace DemoTest.Controllers
                 });
             }
 
+            var roles = await _userManager.GetRolesAsync(user);
+
             return Ok(new UserDetailsDTO
             {
                 Id = user.Id,
                 Email = user.Email,
                 FullName = user.FullName,
-                Roles = [..await _userManager.GetRolesAsync(user)],
+                Roles = roles.ToArray(),
                 PhoneNumber = user.PhoneNumber,
                 PhoneNumberConfirmed = user.PhoneNumberConfirmed,
                 AccessFailedCount = user.AccessFailedCount,
             });
-        }
-
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<UserDetailsDTO>>> GetUsers()
-        {
-            var users = await _userManager.Users.Select(u => new UserDetailsDTO
-            {
-                Id = u.Id, 
-                Email = u.Email,
-                FullName = u.FullName,
-                Roles = _userManager.GetRolesAsync(u).Result.ToArray()
-            }).ToListAsync();
-
-            return Ok(users);
         }
     }
 }

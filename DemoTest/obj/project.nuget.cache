@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "x814B01CisYgOUmCrym3XZleLQAxqY91KPuk5dKd81HtYEzzY9605g8Phcv3Htq8RJ/na3mV6j7e8nNHOiFC/w==",
+  "dgSpecHash": "7ulPPT9P3xM=",
   "success": true,
   "projectFilePath": "C:\\Users\\vandu\\source\\repos\\DemoTest\\DemoTest\\DemoTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vandu\\.nuget\\packages\\ardalis.guardclauses\\4.6.0\\ardalis.guardclauses.4.6.0.nupkg.sha512",
     "C:\\Users\\vandu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vandu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\vandu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
